@@ -52,7 +52,7 @@ Parameters:
 # =============================================================================
 Resources:
 
-  # ---------------------------------------------------------------------------
+  # --------------------------------------------------------------------------
   # THE S3 BUCKET
   # Amazon S3 (Simple Storage Service) stores files - called "objects" -
   # inside containers called "buckets". A bucket is like a folder in the cloud
@@ -72,7 +72,7 @@ Resources:
       # BucketName: we combine ProjectName + Environment to make it unique.
       # !Sub is CloudFormation's string interpolation - like f-strings in Python.
       # ${ProjectName} is replaced with the parameter value at deploy time.
-      BucketName: !Sub "a-${ProjectName}-website-${Environment}-${AWS::AccountId}"
+      BucketName: !Sub "ab-${ProjectName}-website-${Environment}-${AWS::AccountId}"
       # Including the AWS Account ID guarantees global uniqueness -
       # no two accounts have the same ID.
 

@@ -1,7 +1,7 @@
 
 name: "Deploy Stack 1 - Storage (S3)"
 
-# ── TRIGGERS ───────────────────────────────────────────────────────────────
+# ── TRIGGERS ──────────────────────────────────────────────────────────────
 on:
   # Trigger automatically when infra/01-storage/ files change on main.
   push:
