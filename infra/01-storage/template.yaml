@@ -72,7 +72,7 @@ Resources:
       # BucketName: we combine ProjectName + Environment to make it unique.
       # !Sub is CloudFormation's string interpolation - like f-strings in Python.
       # ${ProjectName} is replaced with the parameter value at deploy time.
-      BucketName: !Sub "A-${ProjectName}-website-${Environment}-${AWS::AccountId}"
+      BucketName: !Sub "a-${ProjectName}-website-${Environment}-${AWS::AccountId}"
       # Including the AWS Account ID guarantees global uniqueness -
       # no two accounts have the same ID.
 
