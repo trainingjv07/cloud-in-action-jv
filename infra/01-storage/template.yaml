@@ -4,7 +4,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 # Description appears in the AWS Console so you know
-# what this stack does without reading the whole template.
+# what this stack does without reading the whole template~
 Description: >
   Stack 1 of 3 - "Hello, I am a Cloud Storage"
   Creates an S3 bucket configured as a static website.
