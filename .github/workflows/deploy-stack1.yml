@@ -137,7 +137,7 @@ jobs:
           echo "║  Your website is live at:                                 ║"
           echo "║  $WEBSITE_URL"
           echo "║                                                            ║"
-          echo "║  Open the URL above in your browser to see your site!     ║"
+          echo "║  Open the URL above in your browser to see your site!!    ║"
           echo "╚════════════════════════════════════════════════════════════╝"
           echo ""
           echo "REMEMBER: Run the teardown workflow when done to avoid charges."

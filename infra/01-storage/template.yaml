@@ -118,7 +118,7 @@ Resources:
       Bucket: !Ref WebsiteBucket
 
       PolicyDocument:
-        Version: "2012-10-17"   # IAM policy language version - always use this
+        Version: "2012-10-17"   # IAM policy language version - always use this!
         Statement:
           - Sid: PublicReadGetObject   # Sid = Statement ID, a human-readable label
             Effect: Allow              # Allow (not Deny) the action below
