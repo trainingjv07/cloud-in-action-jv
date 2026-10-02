@@ -22,7 +22,7 @@ Parameters:
   # S3 bucket names must be GLOBALLY unique across ALL AWS accounts worldwide.
   ProjectName:
     Type: String
-    Default: cloud-in-action
+    Default: cloud-in-action2
     Description: >
       A short name for your project. Used to name the S3 bucket.
       Must be lowercase letters, numbers, and hyphens only.
